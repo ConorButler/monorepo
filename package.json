@@ -2,5 +2,6 @@
   "dependencies": {
     "lerna": "^5.1.4"
   },
-  "name": "monorepo"
+  "private": true,
+  "name": "root"
 }

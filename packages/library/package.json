@@ -6,6 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "main": "src/index.js",
+  "private": true,
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -25,6 +26,7 @@
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@storybook/react": "^6.5.9",
+    "eslint": "^8.18.0",
     "framer-motion": "^4.1.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -41,6 +43,7 @@
     "@storybook/builder-webpack4": "6.5.9",
     "@storybook/manager-webpack4": "6.5.9",
     "@storybook/testing-library": "0.0.13",
-    "babel-loader": "^8.2.5"
+    "babel-loader": "^8.2.5",
+    "eslint-plugin-react": "^7.30.1"
   }
 }
