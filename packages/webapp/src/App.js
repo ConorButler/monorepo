@@ -3,25 +3,17 @@ import "./App.css";
 import { GenericButton } from "@monorepo/library";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <GenericButton>helloooo</GenericButton>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+                <GenericButton colourScheme="teal">Teal</GenericButton>
+                <GenericButton colourScheme="teal" disabled={true}>
+                    Teal
+                </GenericButton>
+            </header>
+        </div>
+    );
 }
 
 export default App;
